@@ -1,0 +1,16 @@
+$colour-grey-2: #1A1A1A;
+
+body {
+  background-color: $colour-grey-2 !important;
+  color: white !important;
+  font-family: "Avenir" !important;
+}
+ p {
+   color: #989898;
+ }
+ @font-face {
+   font-family: 'Avenir LT Std';
+   src: url("./assets/fonts/AvenirLTStd-Book.otf");
+   src: url("./assets/fonts/AvenirLTStd-Book.otf") format("opentype");
+   font-style: normal;
+   }

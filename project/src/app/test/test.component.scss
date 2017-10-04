@@ -1,0 +1,153 @@
+@import "~bootstrap/scss/mixins/breakpoints";
+@import "~bootstrap/scss/variables";
+
+@include media-breakpoint-up('md') {
+  .img-vertical {
+    height: 457px;
+    margin: 0!important;
+  }
+  .left-container {
+    padding-right: 4px!important;
+  }
+  .right-container {
+    padding-left: 4px!important;
+  }
+  .img-horisontal {
+    height: 457px !important;
+    background-color: #2E2E2E;
+    margin: 0!important;
+  }
+}
+
+.img-container {
+  padding:{
+    top: 40px;
+    bottom: 40px;
+  }
+}
+
+.img-left {
+  background-image: url(/assets/b2.jpg);
+  background-repeat: no-repeat;
+}
+
+.img-right {
+  background-image: url(/assets/b2.jpg);
+  background-repeat: no-repeat;
+}
+
+.img-horisontal {
+  height: 457px;
+  width: 100%;
+}
+
+.img-vertical {
+  height: 457px;;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.img {
+  cursor: pointer;
+}
+
+.upper {
+  background-image: url(/assets/b2.jpg);
+  background-repeat: no-repeat;
+}
+
+.img-left {
+  padding-right: 14px;
+  background-image: url(/assets/b2.jpg);
+  background-repeat: no-repeat;
+}
+
+.img-right {
+  padding-left: 14px;
+  background-image: url(/assets/b2.jpg);
+  background-repeat: no-repeat;
+}
+
+.carousel {
+  max-height: 366px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 46px;
+  height: 46px;
+  background-color: #2E2E2E;
+  color: white;
+  text-align: center;
+  line-height: 3;
+}
+
+.blurb-wrapper {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  h5 {
+    letter-spacing: 5px;
+    font-weight: bold;
+  }
+}
+
+.project-wrapper {
+  margin: {
+    top:40px;
+    bottom: 40px;
+  }
+  text-align: center;
+  h3 {
+    font-weight: 800;
+    font-size: 6vw;
+    letter-spacing: 15px;
+  }
+}
+
+.project-p {
+  width: 80%;
+  margin: auto;
+}
+
+.cursive {
+  font-family: cursive;
+  font-size: .6rem;
+}
+
+.button {
+  width: 120px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: .7rem;
+}
+
+.white-area {
+  padding-top: 60px;
+}
+
+.breakout {
+  background-color: white;
+  color: black;
+  height: 400px;
+  overflow: hidden;
+}
+
+.line {
+  display: inline-block;
+  width: 40px;
+}
+
+.grey-box {
+  background-color: grey;
+  height: 400px;
+}
+.lower {
+  background-image: url(/assets/b2.jpg);
+  background-repeat: no-repeat;
+}
